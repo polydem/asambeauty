@@ -1,0 +1,64 @@
+
+[
+    { 
+        "id": 1,
+        "image": "assets/images/product_1_image.jpg",
+        "name": "MAGIC FINISH Make-up Mousse",
+        "producer": "M. Asam",
+        "price" : 25.99, 
+        "quantity": 30,
+        "badge": "bestSeller",
+        "description" : {
+            "short": "Make-up Mousse",
+            "long": "Kaschiert sofort Rötungen, Fältchen & Poren für ein perfektes Hautbild"
+        },
+        "ratings": 4,
+        "availability" : 3
+    },
+    { 
+        "id": 2,
+        "image": "assets/images/product_2_image.jpg",
+        "name": "PERFECT TEINT", 
+        "producer": "M. Asam",
+        "price" : 19.75, 
+        "quantity": 30,
+        "badge": "gratis",
+        "description" : {
+            "short": "Soforteffekt",
+            "long": "Sofortiger Weichzeichner für ein porenverfeinertes Hautbild"
+        },
+        "ratings": 4,
+        "availability" : 3
+    },
+    { 
+        "id": 3,
+        "image": "assets/images/product_3_image.jpg",
+        "name": "VINO GOLD Tages- und Nachtcreme XXL",
+        "producer": "M. Asam",
+        "price" : 24.99, 
+        "quantity": 200,
+        "badge": "gratis",
+        "description" : {
+            "short": "24h Pflege",
+            "long": "Anti-Aging Tages- und Nachtcreme zur sichtbaren Faltentiefenreduzierung"
+        },
+        "ratings": 4.5,
+        "availability" : 3
+    },
+    { 
+        "id": 4,
+        "image": "assets/images/product_4_image.jpg",
+        "name": "AQUA INTENSE Supreme Hyaluron Creme XXL",
+        "producer": "M. Asam", 
+        "price" : 29.99, 
+        "quantity": 100,
+        "badge": "gratis",
+        "description" : {
+            "short": "24h Pflege",
+            "long": "Parfümfreie Hyaluroncreme für pralle Haut & intensive Feuchtigkeit"
+        },
+        "ratings": 5,
+        "availability" : 3
+    }
+   
+  ]
