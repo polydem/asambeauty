@@ -5,8 +5,16 @@
         "image": "assets/images/product_1_image.jpg",
         "name": "MAGIC FINISH Make-up Mousse",
         "producer": "M. Asam",
-        "price" : 25.99, 
-        "quantity": 30,
+        "price": {
+            "amount": 25.99,
+            "currency": "€"
+            },
+        "discount" : 0,
+        "quantity": {
+            "amount": 30,
+            "unit": "ml",
+            "isXXL": false
+            },
         "badge": "bestSeller",
         "description" : {
             "short": "Make-up Mousse",
@@ -20,8 +28,16 @@
         "image": "assets/images/product_2_image.jpg",
         "name": "PERFECT TEINT", 
         "producer": "M. Asam",
-        "price" : 19.75, 
-        "quantity": 30,
+        "price": {
+            "amount": 19.75,
+            "currency": "€"
+            },
+        "discount" : 14,  
+        "quantity": {
+            "amount": 30,
+            "unit": "ml",
+            "isXXL": false
+            },
         "badge": "gratis",
         "description" : {
             "short": "Soforteffekt",
@@ -35,8 +51,16 @@
         "image": "assets/images/product_3_image.jpg",
         "name": "VINO GOLD Tages- und Nachtcreme XXL",
         "producer": "M. Asam",
-        "price" : 24.99, 
-        "quantity": 200,
+        "price": {
+            "amount": 24.99,
+            "currency": "€"
+            },
+        "discount" : 0,
+        "quantity": {
+            "amount": 200,
+            "unit": "ml",
+            "isXXL": true
+            },
         "badge": "gratis",
         "description" : {
             "short": "24h Pflege",
@@ -50,9 +74,17 @@
         "image": "assets/images/product_4_image.jpg",
         "name": "AQUA INTENSE Supreme Hyaluron Creme XXL",
         "producer": "M. Asam", 
-        "price" : 29.99, 
-        "quantity": 100,
-        "badge": "gratis",
+        "price": {
+            "amount": 29.99,
+            "currency": "€"
+            },
+        "discount" : 0,
+        "quantity": {
+            "amount": 100,
+            "unit": "ml",
+            "isXXL": true
+            },
+        "badge": "onlineOnly",
         "description" : {
             "short": "24h Pflege",
             "long": "Parfümfreie Hyaluroncreme für pralle Haut & intensive Feuchtigkeit"
