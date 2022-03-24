@@ -30,7 +30,7 @@ const ProductCard = (props) => {
   return (
 <Link to={props.product.id}>
     <div>
-      <img alt={props.product.name} src={props.product.images.main}></img>
+      <img alt={props.product.name} src={props.product.images[0].path}></img>
       {discount}
       {isXXl}
       <div>{badgeOutput}</div>
