@@ -1,8 +1,11 @@
-
-[
+const productsData= [
     { 
-        "id": 1,
-        "image": "assets/images/product_1_image.jpg",
+        "id": "1",
+        "images": {
+            "main": "assets/images/product1/product_1_main.jpg",
+            "image2": "assets/images/product1/product_1_2.jpg",
+            "image3": "assets/images/product1/product_1_3.jpg",
+        },
         "name": "MAGIC FINISH Make-up Mousse",
         "producer": "M. Asam",
         "price": {
@@ -24,8 +27,12 @@
         "availability" : 3
     },
     { 
-        "id": 2,
-        "image": "assets/images/product_2_image.jpg",
+        "id": "2",
+        "images": {
+            "main": "assets/images/product2/product_2_main.jpg",
+            "image2": "assets/images/product2/product_2_2.jpg",
+            "image3": "assets/images/product2/product_2_3.jpg",
+        },
         "name": "PERFECT TEINT", 
         "producer": "M. Asam",
         "price": {
@@ -47,8 +54,12 @@
         "availability" : 3
     },
     { 
-        "id": 3,
-        "image": "assets/images/product_3_image.jpg",
+        "id": "3",
+        "images": {
+            "main": "assets/images/product3/product_3_main.jpg",
+            "image2": "assets/images/product3/product_3_2.jpg",
+            "image3": "assets/images/product3/product_3_3.jpg",
+        },
         "name": "VINO GOLD Tages- und Nachtcreme XXL",
         "producer": "M. Asam",
         "price": {
@@ -70,8 +81,13 @@
         "availability" : 3
     },
     { 
-        "id": 4,
-        "image": "assets/images/product_4_image.jpg",
+        "id": "4",
+        "images": {
+            "main": "assets/images/product4/product_4_main.jpg",
+            "image2": "assets/images/product4/product_4_2.jpg",
+            "image3": "assets/images/product4/product_4_3.jpg",
+            "image4": "assets/images/product4/product_4_4.jpg",
+        },
         "name": "AQUA INTENSE Supreme Hyaluron Creme XXL",
         "producer": "M. Asam", 
         "price": {
@@ -94,3 +110,5 @@
     }
    
   ]
+
+  export default productsData;

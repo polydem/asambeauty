@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 
 const ProductCard = (props) => {
   let badgeOutput = "";
@@ -27,8 +28,9 @@ const ProductCard = (props) => {
     let isXXl = (props.product.quantity.isXXL) ? <div> XXL </div>  : "";
 
   return (
+<Link to={props.product.id}>
     <div>
-      <img alt={props.product.name} src={props.product.image}></img>
+      <img alt={props.product.name} src={props.product.images.main}></img>
       {discount}
       {isXXl}
       <div>{badgeOutput}</div>
@@ -51,6 +53,7 @@ const ProductCard = (props) => {
         {props.product.quantity.unit})
       </div>
     </div>
+    </Link>
   );
 };
 
