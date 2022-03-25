@@ -1,5 +1,5 @@
 import productsData from "../Data/productsData";
-import ProductCard from "./ProductCard";
+import ProductCard from "../Components/ProductCard";
 
 const ProductList = () => {
 

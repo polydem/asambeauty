@@ -1,6 +1,6 @@
 import React from "react";
-import ProductList from "./Components/ProductList";
-import Product from "./Components/Product";
+import ProductList from "./Views/ProductList";
+import Product from "./Views/Product";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 const App = () => {
