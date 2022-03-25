@@ -1,17 +1,20 @@
 const productsData = [
   {
-    id: "1",
+    id: "41250",
     images: [
       {
         id: "101",
+        alt: "Product 1 Image",
         path: "assets/images/product1/product_1_main.jpg",
       },
       {
         id: "102",
+        alt: "Product 1 Image",
         path: "assets/images/product1/product_1_2.jpg",
       },
       {
         id: "103",
+        alt: "Product 1 Image",
         path: "assets/images/product1/product_1_3.jpg",
       },
     ],
@@ -28,26 +31,40 @@ const productsData = [
       isXXL: false,
     },
     badge: "bestSeller",
-    description: {
+    listDescription: {
       short: "Make-up Mousse",
       long: "Kaschiert sofort Rötungen, Fältchen & Poren für ein perfektes Hautbild",
     },
+    pageDescription: {
+      title: "Perfekt aussehen in einer Minute",
+      advantages: [
+        { item: "Passt sich jedem Hautton an" },
+        { item: "Kaschiert sofort Rötungen, Pigmentflecken & Fältchen" },
+        { item: "Lässt Augenringe verschwinden & mattiert den Teint" },
+        { item: "4-in-1 Produkt: Primer, Make-up, Puder & Concealer" },
+        {
+          item: "MAGIC FINISH Make-up Mousse ist die Nr. 1 Make-up Foundation in Deutschland*",
+        },
+      ],
+    },
     ratings: 4,
-    availability: 3,
   },
   {
-    id: "2",
+    id: "41330",
     images: [
       {
         id: "201",
+        alt: "Product 2 Image",
         path: "assets/images/product2/product_2_main.jpg",
       },
       {
         id: "202",
+        alt: "Product 2 Image",
         path: "assets/images/product2/product_2_2.jpg",
       },
       {
         id: "203",
+        alt: "Product 2 Image",
         path: "assets/images/product2/product_2_3.jpg",
       },
     ],
@@ -64,26 +81,40 @@ const productsData = [
       isXXL: false,
     },
     badge: "gratis",
-    description: {
+    listDescription: {
       short: "Soforteffekt",
       long: "Sofortiger Weichzeichner für ein porenverfeinertes Hautbild",
     },
+    pageDescription: {
+      title: "Sofortiger Weichzeichner und Mattierer",
+      advantages: [
+        {
+          item: "Transparentes Make-up (30 ml) lässt Falten sofort verschwinden",
+        },
+        { item: "Für ein ebenmäßiges, mattiertes Hautbild" },
+        { item: "Weichzeichner-Effekt mit Sofort- & Langzeitwirkung" },
+        { item: "Verfeinert sichtbar das Porenbild" },
+        { item: "Ideal zum Mischen mit getönter Tagescreme oder Make-up" },
+      ],
+    },
     ratings: 4,
-    availability: 3,
   },
   {
-    id: "3",
+    id: "41435",
     images: [
       {
         id: "301",
+        alt: "Product 3 Image",
         path: "assets/images/product3/product_3_main.jpg",
       },
       {
         id: "302",
+        alt: "Product 3 Image",
         path: "assets/images/product3/product_3_2.jpg",
       },
       {
         id: "303",
+        alt: "Product 3 Image",
         path: "assets/images/product3/product_3_3.jpg",
       },
     ],
@@ -100,30 +131,43 @@ const productsData = [
       isXXL: true,
     },
     badge: "gratis",
-    description: {
+    listDescription: {
       short: "24h Pflege",
       long: "Anti-Aging Tages- und Nachtcreme zur sichtbaren Faltentiefenreduzierung",
     },
+    pageDescription: {
+      title: "Internationaler 24H Creme Bestseller",
+      advantages: [
+        { item: "Bestseller Anti-Falten 24h Creme" },
+        { item: "Faltentiefenreduzierung um durchschnittlich 48%*" },
+        { item: "Für ein optimiertes & jugendlich wirkendes Hautbild" },
+        { item: "Traubenwirkstoffe aus eigener Produktion" },
+        { item: "Perfekte Basispflege für jeden Hauttyp" },
+      ],
+    },
     ratings: 4.5,
-    availability: 3,
   },
   {
-    id: "4",
+    id: "41442",
     images: [
       {
         id: "401",
+        alt: "Product 4 Image",
         path: "assets/images/product4/product_4_main.jpg",
       },
       {
         id: "402",
+        alt: "Product 4 Image",
         path: "assets/images/product4/product_4_2.jpg",
       },
       {
         id: "403",
+        alt: "Product 4 Image",
         path: "assets/images/product4/product_4_3.jpg",
       },
       {
         id: "404",
+        alt: "Product 4 Image",
         path: "assets/images/product4/product_4_4.jpg",
       },
     ],
@@ -140,13 +184,26 @@ const productsData = [
       isXXL: true,
     },
     badge: "onlineOnly",
-    description: {
+    listDescription: {
       short: "24h Pflege",
       long: "Parfümfreie Hyaluroncreme für pralle Haut & intensive Feuchtigkeit",
     },
+    pageDescription: {
+      title: "Hyaluron Tagescreme für sichtbar prallere Haut",
+      advantages: [
+        { item: "Parfümfreie 24h Creme (100 ml) mit Hyaluronsäure" },
+        { item: "Für jeden Hauttyp, speziell für sensible & trockene Haut" },
+        {
+          item: "Patentierter Hyaluronsäurekomplex* für intensive Feuchtigkeit",
+        },
+        {
+          item: "Hyaluron sorgt sofort für pralle, glatte Haut & polstert Fältchen auf",
+        },
+        { item: "Für ein frisches, strahlendes Hautbild" },
+      ],
+    },
     ratings: 5,
-    availability: 3,
-  },
+  }
 ];
 
 export default productsData;

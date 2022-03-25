@@ -1,6 +1,5 @@
 import { useParams } from "react-router-dom";
 import productsData from "../Data/productsData";
-import GalleryFetch from "./GalleryFetch";
 
 const Gallery = () => {
   const { productId } = useParams();
@@ -11,7 +10,7 @@ const Gallery = () => {
     <div>
       {productImages.map((gallery) => (
         <div key={gallery.id}>
-          <GalleryFetch gallery={gallery} />
+          <img alt={gallery.alt} src={gallery.path} />
         </div>
       ))}
     </div>

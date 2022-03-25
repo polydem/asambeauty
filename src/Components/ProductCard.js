@@ -39,8 +39,8 @@ const ProductCard = (props) => {
       <div>
         {props.product.quantity.amount} {props.product.quantity.unit}
       </div>
-      <div>{props.product.description.short}</div>
-      <div>{props.product.description.long}</div>
+      <div>{props.product.listDescription.short}</div>
+      <div>{props.product.listDescription.long}</div>
       <div>{props.product.ratings}</div>
 
       {/* Use to toLocaleString('de-DE') in order to convert decimal price from "." to "," for display */}
