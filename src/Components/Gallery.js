@@ -7,11 +7,9 @@ const Gallery = () => {
   const productImages = product.images;
 
   return (
-    <div>
+    <div className="gallery">
       {productImages.map((gallery) => (
-        <div key={gallery.id}>
-          <img alt={gallery.alt} src={gallery.path} />
-        </div>
+          <img key={gallery.id} alt={gallery.alt} src={gallery.path} />
       ))}
     </div>
   );

@@ -1,14 +1,14 @@
 import React from "react";
 import Gallery from "../Components/Gallery";
 import ProductDetails from "../Components/ProductDetails";
+import '../Styles/ProductPage.scss';
+
 
 const Product = () => {
   return (
-    <div>
-      <div>
+    <div className="container">
+      <div className="product">
         <Gallery />
-      </div>
-      <div>
         <ProductDetails />
       </div>
     </div>

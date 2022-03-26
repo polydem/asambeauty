@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans");
+
+#root {
+  font-family: "Open Sans", system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+  overflow-x: initial;
+}
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #212224;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  line-height: 26px;
+}
+
+.product {
+  display: flex;
+  margin-top: 32px;
+  &-info {
+    flex: 0 0 428px;
+    margin-bottom: 28px;
+    width: 40.5%;
+  }
+  &-brand {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    line-height: normal;
+    margin-bottom: 5px;
+  }
+  &-ratings {
+    align-items: center;
+    display: flex;
+    margin-bottom: 6px;
+    margin-top: 12px;
+  }
+  &-description {
+    color: #212224;
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    h2 {
+      font-size: 18px;
+      font-weight: 400;
+    }
+    ul {
+      margin-top: 16px;
+      li {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 9px;
+        padding-left: 23px;
+        position: relative;
+        list-style-type: none;
+        svg {
+          height: 10px;
+          left: 4px;
+          position: absolute;
+          top: 6px;
+          width: 10px;
+          path {
+            stroke: #94c155;
+          }
+        }
+      }
+    }
+  }
+  &-price {
+    &.wrapper {
+      position: relative;
+    }
+    &-info {
+      align-items: center;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 10px 0;
+      position: relative;
+      &-amount {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 20px;
+      }
+      &-details {
+        bottom: 3px;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 12px;
+        right: 0;
+        text-align: right;
+      }
+      &-tax {
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        line-height: 20px;
+        text-align: right;
+
+        span {
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  &-addToCart {
+    margin-bottom: 17px;
+    margin-top: 35px;
+    &-buttons {
+      align-items: center;
+      display: flex;
+      .counter {
+        border: 1px solid #e3e3e3;
+        border-radius: 8px;
+        display: flex;
+        height: 32px;
+        width: 84px;
+        margin: 0 10px 0 0;
+        button {
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
+          background: none;
+          border: 0;
+          cursor: pointer;
+          display: block;
+          outline: none;
+          width: 24px;
+          svg {
+            height: 30px;
+            width: 14px;
+          }
+        }
+        input {
+          background: #f5f5f5;
+          border: 0;
+          border-left: 1px solid #e3e3e3;
+          border-right: 1px solid #e3e3e3;
+          display: block;
+          font-family: Open Sans, system-ui, sans-serif;
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 30px;
+          text-align: center;
+          width: 36px;
+        }
+      }
+    }
+    &-button {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background: #c92976;
+      border: 2px solid #c92976;
+      border-radius: 24px;
+      box-shadow: 0 2px 2px rgb(178 36 105 / 24%);
+      color: #fff;
+      cursor: pointer;
+      display: block;
+      font-family: Open Sans, system-ui, sans-serif;
+      font-size: 16px;
+      min-height: 40px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+      width: 100%;
+      font-size: 18px;
+      line-height: 44px;
+      min-height: 48px;
+      padding: 0 20px;
+    }
+  }
+  &-wishlist {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 18px;
+    span {
+      padding-left: 26px;
+      position: relative;
+      font-size: 14px;
+      letter-spacing: 0;
+      line-height: 22px;
+      color: #c92976;
+      text-decoration: underline;
+      cursor: pointer;
+      svg {
+        height: 18px;
+        left: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 18px;
+      }
+    }
+  }
+  &-availabiity {
+    color: #75787b;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    padding: 12px 0 10px 20px;
+    position: relative;
+    .isAvailable:before {
+      border-radius: 50%;
+      content: "";
+      height: 12px;
+      left: 0;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 12px;
+      background: #a4d65e;
+    }
+  }
+  &-ratings {
+      display: flex;
+      align-items: center;
+    &-stars {
+      background: #e3e3e3;
+      height: 14px;
+      overflow: hidden;
+      position: relative;
+      width: 70px;
+      &:before {
+        display: block;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        background: url(https://assets.asambeauty.com/static/media/star.f80f0327.png)
+          repeat-x 0 0/14px 14px;
+        content: "";
+        width: 100%;
+        z-index: 1;
+      }
+    }
+    &-rated {
+        color: #75787b;
+        font-size: 14px;
+        line-height: 22px;
+        margin-left: 9px;
+        margin-top: 1px;
+    }
+    span {
+      background-color: #ffc445;
+      display: block;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+    }
+  }
+  .divider {
+    &-horizontal {
+      background: #e3e3e3;
+      height: 1px;
+      position: relative;
+      width: 100%;
+    }
+  }
+}
+
+.gallery {
+  position: relative;
+  width: 59.5%;
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}

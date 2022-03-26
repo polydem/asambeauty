@@ -47,7 +47,8 @@ const productsData = [
         },
       ],
     },
-    ratings: 4,
+    ratings: 4.32,
+    customersRated: 5878
   },
   {
     id: "41330",
@@ -97,7 +98,8 @@ const productsData = [
         { item: "Ideal zum Mischen mit getönter Tagescreme oder Make-up" },
       ],
     },
-    ratings: 4,
+    ratings: 3.95,
+    customersRated: 1063
   },
   {
     id: "41435",
@@ -145,7 +147,8 @@ const productsData = [
         { item: "Perfekte Basispflege für jeden Hauttyp" },
       ],
     },
-    ratings: 4.5,
+    ratings: 4.59,
+    customersRated: 584
   },
   {
     id: "41442",
@@ -202,7 +205,8 @@ const productsData = [
         { item: "Für ein frisches, strahlendes Hautbild" },
       ],
     },
-    ratings: 5,
+    ratings: 4.75,
+    customersRated: 404
   }
 ];
 
