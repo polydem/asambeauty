@@ -6,16 +6,19 @@ const productsData = [
         id: "101",
         alt: "Product 1 Image",
         path: "assets/images/product1/product_1_main.jpg",
+        thumbnail: "assets/images/product1/product_1_main_thumbnail.jpg"
       },
       {
         id: "102",
         alt: "Product 1 Image",
         path: "assets/images/product1/product_1_2.jpg",
+        thumbnail: "assets/images/product1/product_1_2_thumbnail.jpg"
       },
       {
         id: "103",
         alt: "Product 1 Image",
         path: "assets/images/product1/product_1_3.jpg",
+        thumbnail: "assets/images/product1/product_1_3_thumbnail.jpg"
       },
     ],
     name: "MAGIC FINISH Make-up Mousse",
