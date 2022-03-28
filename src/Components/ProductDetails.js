@@ -3,6 +3,7 @@ import productsData from "../Data/productsData";
 import Cart from "./Cart";
 import Delivery from "./Delivery";
 import ProductInfoListIcon from "./SvgIcons/ProductInfoListIcon";
+import '../Styles/ProductDetails.scss';
 
 const ProductDetails = () => {
   const { productId } = useParams();

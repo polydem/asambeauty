@@ -22,7 +22,7 @@ const productsData = [
       },
     ],
     name: "MAGIC FINISH Make-up Mousse",
-    producer: "M. Asam",
+    manufacturer: "M. Asam",
     price: {
       amount: 25.99,
       currency: "€",
@@ -60,22 +60,25 @@ const productsData = [
         id: "201",
         alt: "Product 2 Image",
         path: "assets/images/product2/product_2_main.jpg",
+        thumbnail: "assets/images/product2/product_2_main_thumbnail.jpg"
       },
       {
         id: "202",
         alt: "Product 2 Image",
         path: "assets/images/product2/product_2_2.jpg",
+        thumbnail: "assets/images/product2/product_2_2_thumbnail.jpg"
       },
       {
         id: "203",
         alt: "Product 2 Image",
         path: "assets/images/product2/product_2_3.jpg",
+        thumbnail: "assets/images/product2/product_2_3_thumbnail.jpg"
       },
     ],
     name: "PERFECT TEINT",
-    producer: "M. Asam",
+    manufacturer: "M. Asam",
     price: {
-      amount: 19.75,
+      amount: 22.99,
       currency: "€",
     },
     discount: 14,
@@ -111,20 +114,23 @@ const productsData = [
         id: "301",
         alt: "Product 3 Image",
         path: "assets/images/product3/product_3_main.jpg",
+        thumbnail: "assets/images/product3/product_3_main_thumbnail.jpg"
       },
       {
         id: "302",
         alt: "Product 3 Image",
         path: "assets/images/product3/product_3_2.jpg",
+        thumbnail: "assets/images/product3/product_3_2_thumbnail.jpg"
       },
       {
         id: "303",
         alt: "Product 3 Image",
         path: "assets/images/product3/product_3_3.jpg",
+        thumbnail: "assets/images/product3/product_3_3_thumbnail.jpg"
       },
     ],
     name: "VINO GOLD Tages- und Nachtcreme XXL",
-    producer: "M. Asam",
+    manufacturer: "M. Asam",
     price: {
       amount: 24.99,
       currency: "€",
@@ -160,25 +166,29 @@ const productsData = [
         id: "401",
         alt: "Product 4 Image",
         path: "assets/images/product4/product_4_main.jpg",
+        thumbnail: "assets/images/product4/product_4_main_thumbnail.jpg"
       },
       {
         id: "402",
         alt: "Product 4 Image",
         path: "assets/images/product4/product_4_2.jpg",
+        thumbnail: "assets/images/product4/product_4_2_thumbnail.jpg"
       },
       {
         id: "403",
         alt: "Product 4 Image",
         path: "assets/images/product4/product_4_3.jpg",
+        thumbnail: "assets/images/product4/product_4_3_thumbnail.jpg"
       },
       {
         id: "404",
         alt: "Product 4 Image",
         path: "assets/images/product4/product_4_4.jpg",
+        thumbnail: "assets/images/product4/product_4_4_thumbnail.jpg"
       },
     ],
     name: "AQUA INTENSE Supreme Hyaluron Creme XXL",
-    producer: "M. Asam",
+    manufacturer: "M. Asam",
     price: {
       amount: 29.99,
       currency: "€",

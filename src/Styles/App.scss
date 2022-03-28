@@ -1,0 +1,15 @@
+//General Styles
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans");
+
+#root {
+  font-family: "Open Sans", system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+  overflow-x: initial;
+}
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}

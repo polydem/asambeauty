@@ -1,7 +1,6 @@
 import React from "react";
 import Gallery from "../Components/Gallery";
 import ProductDetails from "../Components/ProductDetails";
-import '../Styles/ProductPage.scss';
 
 
 const Product = () => {

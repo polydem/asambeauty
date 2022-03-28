@@ -1,16 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans");
-
-#root {
-  font-family: "Open Sans", system-ui, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #000000;
-  overflow-x: initial;
-}
-.container {
-  max-width: 1180px;
-  margin: 0 auto;
-}
+//Product details styles in Product Page
 
 h1 {
   color: #212224;
@@ -87,6 +75,19 @@ h1 {
         font-size: 28px;
         font-weight: 600;
         line-height: 20px;
+        .withDiscount {
+          color: #75787b;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 20px;
+          text-decoration: line-through;
+        }
+        .discounted {
+          color: #e02e84;
+          font-size: 28px;
+          font-weight: 600;
+          line-height: 20px;
+        }
       }
       &-details {
         bottom: 3px;
@@ -135,6 +136,14 @@ h1 {
           svg {
             height: 30px;
             width: 14px;
+          }
+          &.locked {
+            svg {
+              path {
+                fill: #e3e3e3;
+                stroke: #e3e3e3;
+              }
+            }
           }
         }
         input {
@@ -220,8 +229,8 @@ h1 {
     }
   }
   &-ratings {
-      display: flex;
-      align-items: center;
+    display: flex;
+    align-items: center;
     &-stars {
       background: #e3e3e3;
       height: 14px;
@@ -242,11 +251,11 @@ h1 {
       }
     }
     &-rated {
-        color: #75787b;
-        font-size: 14px;
-        line-height: 22px;
-        margin-left: 9px;
-        margin-top: 1px;
+      color: #75787b;
+      font-size: 14px;
+      line-height: 22px;
+      margin-left: 9px;
+      margin-top: 1px;
     }
     span {
       background-color: #ffc445;
@@ -264,38 +273,5 @@ h1 {
       position: relative;
       width: 100%;
     }
-  }
-}
-
-//GALLERY
-
-.gallery {
-  position: relative;
-  width: 59.5%;
-  .image-gallery {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 416px;
-    position: relative;
-    &-content {
-      position: relative;
-      line-height: 0;
-      top: 0;
-      margin-left: auto;
-      margin-right: auto;
-      max-width: 340px;
-    }
-    &-bullets {
-      position: absolute;
-      width: 100%;
-      bottom: -16px;
-    }
-    &-thumbnails-wrapper {
-      padding-top: 28px;
-    }
-  }
-  img {
-    max-width: 100%;
-    max-height: 100%;
   }
 }

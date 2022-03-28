@@ -4,12 +4,14 @@ import ProductCard from "../Components/ProductCard";
 const ProductList = () => {
 
   return (
+    <div className="container">
     <div className="product-list">
       {productsData.map((product) => (
-        <div key={product.name}>
+        <div key={product.name} className="product-list-card">
           <ProductCard product={product} />
         </div>
       ))}
+    </div>
     </div>
   );
 };
