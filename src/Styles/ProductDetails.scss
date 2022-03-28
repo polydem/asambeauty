@@ -11,8 +11,22 @@ h1 {
 .product {
   display: flex;
   margin-top: 32px;
+  @media screen and (max-width: 767px) {
+    display: block;
+  }
   &-info {
-    flex: 0 0 428px;
+    @media (min-width: 1024px) {
+      flex: 0 0 428px;
+    }
+    @media screen and (max-width: 1023px) {
+      padding-left: 3%;
+      width: 51.3%;
+    }
+    @media screen and (max-width: 767px) {
+      padding-left: 0;
+      padding-top: 20px;
+      width: 100%;
+    }
     margin-bottom: 28px;
     width: 40.5%;
   }

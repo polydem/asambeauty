@@ -1,3 +1,4 @@
+import React from "react";
 import { useParams } from "react-router-dom";
 import productsData from "../Data/productsData";
 import Cart from "./Cart";
@@ -15,10 +16,25 @@ const ProductDetails = () => {
 
   let calculteRatings = ((product.ratings * 100) / 5).toString();
   let starRatings = calculteRatings + "%";
+  
+  React.useEffect(() => {
+    function handleResize() {
+      const productRoot = document.querySelector(".product");
+      const productHeader = document.querySelector(".product-header");
+      const productContainer = document.querySelector(".product-info");
+      if(window.innerWidth < 767) {
+        productRoot.prepend(productHeader);
+      } else {
+        productContainer.prepend(productHeader);
+      }
+}
+
+    window.addEventListener('resize', handleResize)
+  })
 
   return (
     <div className="product-info">
-      <div>
+      <div className="product-header">
         <h1>
           <div className="product-brand">{product.producer}</div>
           {product.name}

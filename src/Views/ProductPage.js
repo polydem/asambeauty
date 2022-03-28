@@ -5,7 +5,7 @@ import ProductDetails from "../Components/ProductDetails";
 
 const Product = () => {
   return (
-    <div className="container">
+    <div className="container container-details">
       <div className="product">
         <Gallery />
         <ProductDetails />

@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Cart from "./Cart";
 import WhishListIcon from "./SvgIcons/WhishListIcon";
-import '../Styles/ProductCard.scss';
 
 const ProductCard = (props) => {
   let badgeOutput = "";
