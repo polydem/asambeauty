@@ -2,7 +2,6 @@ import { useParams } from "react-router-dom";
 import productsData from "../Data/productsData";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/scss/image-gallery.scss";
-import '../Styles/Gallery.scss';
 
 const Gallery = () => {
   const { productId } = useParams();
